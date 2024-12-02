@@ -1,7 +1,6 @@
 pandas
 numpy
 openpyxl
-sqlite3 
 streamlit
 scikit-learn
 seaborn
