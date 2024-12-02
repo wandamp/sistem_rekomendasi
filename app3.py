@@ -81,7 +81,7 @@ def run_streamlit():
 
     # Sidebar untuk pengaturan bobot
     st.sidebar.title("Pengaturan dan Filter")
-    alpha = st.sidebar.slider("Bobot Teks", 0.0, 1.0, 0.5, 0.1)
+    alpha = st.sidebar.slider("Bobot Deskripsi", 0.0, 1.0, 0.5, 0.1)
     beta = st.sidebar.slider("Bobot Lokasi", 0.0, 1.0, 0.3, 0.1)
     gamma = st.sidebar.slider("Bobot Rating", 0.0, 1.0, 0.2, 0.1)
     top_n = st.sidebar.slider("Jumlah Rekomendasi", 1, 10, 5)
